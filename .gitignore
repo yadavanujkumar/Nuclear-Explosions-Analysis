@@ -40,14 +40,13 @@ env/
 .DS_Store
 Thumbs.db
 
-# Output files
-*.png
-*.jpg
-*.jpeg
-*.pdf
+# Output files (keep the generated visualizations as examples)
 results/
 figures/
 plots/
 
-# Exclude these specific visualization outputs
-!example_*.png
+# Keep generated analysis visualizations
+!temporal_analysis.png
+!country_purpose_analysis.png
+!yield_analysis.png
+!geographic_analysis.png
